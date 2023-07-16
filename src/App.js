@@ -6,7 +6,7 @@ import Nav from './Components/Nav';
 import User from './Components/User';
 function App() {
   const [users,setUsers] = useState([])
-  const [filteredusers,setFilteredUsers] = useState([])
+  const [filteredusers,setFilteredUsers] = useState(users)
 
   
 
